@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b47182f46f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./webclone.css" />
+  </head>
+  <body>
+    <!-- landing -->
+    <div id="landing">
+      <ul>
+        <li class="hub">Page Help</li>
+      </ul>
+      <ul class="git-page">
+        <!-- inline styling for GitHub -->
+        <li style="font-weight: 900">GitHub</li>
+        <li style="font-weight: 100">Pages</li>
+      </ul>
+      <h1>Websites for you and your projects.</h1>
+      <p class="landing">
+        Hosted directly from your
+        <a class="landing" href="">GitHub repository.</a> Just edit, push, and
+        your changes are live
+      </p>
+      <div class="phone">
+        <nav>
+          <p class="nav1">Build an Electron</p>
+          <p class="nav2">Get Started</p>
+        </nav>
+
+        <div id="electron">
+          <i class="fa-solid fa-atom"></i>
+          <h1>ELECTRON</h1>
+        </div>
+        <p class="elect">
+          Build cross platform desktop apps with web technologies
+        </p>
+        <div id="elect">
+          <p>Formerly known as Atom Shell. Made with</p>
+          <i class="fa-solid fa-heart"></i>
+        </div>
+      </div>
+    </div>
+    <!-- input image -->
+
+    <!-- main body -->
+    <div id="main">
+      <h1 class="main">
+        Ready to get started? Build your own site <br />from scratch or generate
+        one for your project.
+      </h1>
+      <p class="main">You get one site per GitHub account and organization,</p>
+      <p class="main">and unlimited project sites. Let's get started.</p>
+
+      <!-- style first blue -->
+      <button class="blue-button main">User or organization site</button>
+      <button class="main">Project site</button>
+
+      <!-- 1 -->
+      <div class="main-body">
+        <div class="inner">
+          <!-- create -->
+          <div class="grid-container">
+            <div class="create">
+              <h1 class="create">Create a repository</h1>
+              <p class="create">
+                Head over to <span class="blue">GitHub</span> and
+                <span class="blue">create a new public repository</span> <br> named
+                <span class="italics">username.github.io,</span> where
+                <span class="italics">username</span> is your <br>username (or
+                organization name) on GitHub.
+              </p>
+              <p>
+                If the first part of the repository doesn't exactly match your
+                username, it won't work. So make sure to get it right.
+              </p>
+            </div>
+
+            <!-- create new -->
+            <div class="create2">
+              <h3 class="create2">Create a new repository</h3>
+              <p>
+                A repository contains all project files, including the revision
+                history
+              </p>
+              <hr />
+
+              <!-- style like form -->
+              <ul>
+                <li>Owner</li>
+                <li>Repository name</li>
+              </ul>
+              <button class="create2">sophshep</button>
+              <button class="create2">sophshop.github.io</button>
+              <p>
+                Great repository names are short and memorible. Need
+                inspiration? How about <span>fictional-winner</span>?
+              </p>
+              <!-- form -->
+              <form action="">
+                <label for="Description">
+                  Description
+                  <input style="height: 8px;"
+                    class="form"
+                    type="text"
+                    id="Description"
+                    name="Description"
+                  />
+                </label>
+              </form>
+
+              <!-- icons -->
+              <div class="icons">
+                <hr />
+                <h4 class="create2">Public</h4>
+                <p>Anyone can see this repository</p>
+
+                <h4 class="create2">Private</h4>
+                <p>You can choose who can see and commit to this repository</p>
+                <hr />
+                <h4 class="create2">Initialize this repositorywith a README</h4>
+                <p>
+                  This will let you immediately clone the repository to your
+                  computer. Skip this step if you're importing an existing
+                  repository.
+                </p>
+                <button class="create2">Add gitignore: Name</button>
+                <button class="create2">Add a license: Name</button>
+                <hr />
+                <!-- inline styling -->
+                <button class="green">Create repository</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ? -->
+      <div class="main-body">
+        <div class="icon">
+          <p>?</p>
+        </div>
+        <div class="inner">
+          <h3>What git client are you using?</h3>
+          <button class="blue-button">A terminal</button>
+          <button>GitHub Desktop</button>
+          <button>I don't know</button>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="main-body">
+        <div class="icon">
+          <p>2</p>
+        </div>
+        <div class="inner">
+          <h3>Clone the repository</h3>
+          <p>
+            Go to the folder where you want to store ypour project, and clone
+            the new repository
+          </p>
+          <!-- style ~ and & and git -->
+          <div class="git">
+            <p>
+              <span class="blue">~</span>
+              <span class="red">$</span>
+              git clone
+            </p>
+            <p>https://github.com/username/username.github.io</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="main-body">
+        <div class="icon">
+          <p>3</p>
+        </div>
+        <div class="inner">
+          <h3>Hello World</h3>
+          <p>Enter the project folder and add an index.html file:</p>
+          <div class="git">
+            <p>
+              <span class="blue">~</span>
+              <span class="red">$</span>
+              cd username,github.io
+            </p>
+            <p>
+              <span class="blue">~</span>
+              <span class="red">$</span>
+              echo "Hello World" > index.html
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="main-body">
+        <div class="icon">
+          <p>4</p>
+        </div>
+        <div class="inner">
+          <h3>Push it</h3>
+          <p>Add, commit, and push your changes:</p>
+          <div class="git">
+            <p>
+              <span class="blue">~</span>
+              <span class="red">$</span>
+              git add --all
+            </p>
+            <p>
+              <span class="blue">~</span>
+              <span class="red">$</span>
+              git commit -m "initial commit"
+            </p>
+            <p>
+              <span class="blue">~</span>
+              <span class="red">$</span>
+              git push -u origin main
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="main-body">
+        <div class="icon">5</div>
+        <div class="inner">
+          <h3>...and you're done!</h3>
+          <p>
+            Fire up a browser and go to
+            <span class="bold">https://username.github.io.</span>
+          </p>
+          <i class="fa-solid fa-check"></i>
+        </div>
+      </div>
+
+      <!-- last -->
+      <div class="last">
+        <div class="last-inner">
+          <h3>
+            Now that you're up and running, here are a few things you should
+            know.
+          </h3>
+          <div id="side">
+            <!-- pen -->
+            <div class="side">
+              <i class="fa-solid fa-pencil"></i>
+              <h4>Blogging with Jekyll</h4>
+              <p>
+                Using <span class="blue">Jekyll</span>, you can blog using
+                beautiful markdown syntax, and without having to deal with any
+                databases.
+                <br />
+                <span class="blue">Learn how to set up Jekyll</span>
+              </p>
+            </div>
+
+            <!-- link -->
+            <div class="side">
+              <i class="fa-solid fa-link"></i>
+              <h4>Custom URLs</h4>
+              <p>
+                Want to use your own custom domain for a GitHub Pages site?Just
+                create a file names CNAME and include your URL.
+                <a class="side" href="">Read more.</a>
+              </p>
+            </div>
+
+            <!-- book -->
+            <div class="side">
+              <i class="fa-solid fa-book-open"></i>
+              <h4>Guides</h4>
+              <p>
+                Learn how to custom 404 pages, use submodules, and
+                <span class="blue">learn more about GitHub Pages.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="last" />
+
+      <!-- footer -->
+      <div id="footer">
+        <!-- down nav -->
+        <div id="nav">
+          <ul class="nav">
+            <li class="left">Terms</li>
+            <li class="left">Privacy</li>
+            <li class="left">Security</li>
+            <li class="left">Contact</li>
+            <li class="right">Status</li>
+            <li class="right">API</li>
+            <li class="right">Training</li>
+            <li class="right">Shop</li>
+            <li class="right">Blog</li>
+            <li class="right">About</li>
+          </ul>
+        </div>
+        <ul>
+          <li>&copy; Copyright Angyu Sarah 2023</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

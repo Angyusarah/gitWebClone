@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+/* landing */
+#landing{
+    margin: 0;
+    background-color: rgb(46, 42, 42);
+    color: white;
+    padding: 30px;
+}
+
+
+.hub{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    margin-top: 0;
+    padding: 8px;
+    display: inline-block;
+    text-align: right;
+    width: 90px;
+    background-color: rgb(67, 62, 62);
+    border: 1px solid rgb(46, 42, 42);
+    border-radius: 5px;
+    justify-content: right;
+   
+}
+
+.git-page{
+   display: flex;
+   justify-content: center;
+}
+
+#landing h1{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+}
+p.landing{
+    color: rgb(196, 183, 183);
+    margin-bottom: 60px;
+}
+
+a.landing{
+    color: white;
+}
+
+/* phone */
+.phone{
+    margin: 0 10%;
+    background-color: rgb(103, 198, 243);
+    border-radius: 5px 5px 0 0;
+    color: black;
+}
+
+nav{
+    background-color: rgb(31, 149, 204);
+    color: white;
+   
+}
+
+p.nav1{
+    display: inline-block;
+    margin-left: -600px;
+}
+
+p.nav2{
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+/* electron */
+#electron{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: black;
+}
+
+#electron i{
+    color: black;
+    font-size: 90px;
+    border: 0;
+}
+
+#electron h1{
+    font-size: 60px;
+    letter-spacing: 15px;
+    font-weight: 100;
+}
+
+p.elect{
+    font-size: 25px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+}
+
+#elect{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+
+}
+
+#elect p{
+    font-size: 20px;
+}
+
+#elect i{
+    color: black;
+    border: 0;
+    margin-left: 0;
+}
+
+/* main */
+#main{
+    background-color: rgb(233, 224, 234);
+    margin: 0;
+}
+
+#main h1{
+    font-weight: 100;
+    word-spacing: 7px;
+}
+
+p.main{
+    font-size: 20px;
+}
+
+.main-body{
+    position: relative;
+}
+
+.inner{
+    background-color: white;
+    padding: 20px 40px 40px;
+    margin: 80px 0;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: 1px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* 1 */
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.create{
+    line-height: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.create2{
+    font-size: 6px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: left;
+}
+
+h3.create2{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+button.create2{
+    display: inline;
+    height: 8px;
+    font-size: 6px;
+}
+
+h4.create2{
+    color: black;
+    font-weight: 900;
+}
+
+.green{
+    background-color: rgb(12, 188, 12);
+    color: white;
+    border: 1px thin rgb(12, 188, 12);
+    height: 8px; 
+    font-size: 6px;
+}
+
+
+/* ? */
+.blue-button{
+   background-color: blue;
+   color: white;
+   border: 1px thin blue;
+}
+
+
+/* 2 */
+.git{
+    margin:60px 20% 0;
+    padding: 15px;
+    background-color: rgb(46, 42, 42);
+    color: rgb(248, 248, 157);
+    text-align: left;
+    border-radius: 4px;
+    box-shadow: 0px -20px 20px 0px rgb(46, 42, 42);
+}
+
+/* ~ & span */
+.blue{
+    color: rgb(69, 69, 242);
+}
+
+.red{
+    color: rgb(204, 6, 6);
+}
+
+
+
+/* 5 */
+.bold{
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/* last */
+.last-inner{
+    background-color: white;
+    padding: 20px 40px 40px;
+    margin: 80px 0 0;
+}
+#side{
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4{
+    color:rgb(67, 67, 246);
+}
+
+a.side{
+    color: rgb(67, 67, 246);
+    text-decoration: none;
+}
+
+i{
+    color: blue;
+    border: 1px solid black;
+    padding: 25px 20px 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* last hr */
+.last{
+    margin: 0;
+}
+
+
+/* footer */
+#footer{
+    margin: 0;
+    padding: 5px;
+    background-color: white;
+}
+
+#nav li{
+    color: rgb(67, 67, 246);
+    display: inline-block;
+    margin-left: 20px;
+    border: 2px;
+}
+
+li.left{
+    text-align: left;
+}
